@@ -36,6 +36,7 @@ jobs:
           echo "Account: ${{ env.account }}"
           echo "Username: ${{ env.username }}"
           echo "Password: ${{ env.password }}"
+          echo "Project version ${{ vars.PROJECT_VERSION }}"
 
       - name: "Mostrando variables por defecto"
         run: |
